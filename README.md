@@ -1,4 +1,5 @@
 Face Detection Project 🎯
+
 A Python-based face detection application using OpenCV that can detect faces in images and provide real-time face detection through webcam.
 Features ✨
 
