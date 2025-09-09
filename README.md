@@ -148,7 +148,7 @@ Step 3: Upload to GitHub
 Create a new repository on GitHub.com (make it public)
 In VS Code terminal:
 bashgit init
-git remote add origin https://github.com/YOUR_USERNAME/face-detection-project.git
+git remote add origin https://tejas-ux257.github.io/face-detection-python/
 git add .
 git commit -m "Initial commit: Face detection project"
 git push -u origin main
@@ -164,6 +164,7 @@ Screenshot capture - Press 's' during webcam mode
 
 🔗 Your Project URL
 Once uploaded, your project will be accessible at:
+https://tejas-ux257.github.io/face-detection-python/
 
 The complete setup guide in the last artifact provides detailed step-by-step instructions for:
 
