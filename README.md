@@ -164,7 +164,7 @@ Screenshot capture - Press 's' during webcam mode
 
 🔗 Your Project URL
 Once uploaded, your project will be accessible at:
-https://github.com/YOUR_USERNAME/face-detection-project
+
 The complete setup guide in the last artifact provides detailed step-by-step instructions for:
 
 Setting up Python and VS Code
