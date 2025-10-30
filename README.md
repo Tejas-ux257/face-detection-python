@@ -25,15 +25,6 @@ cd face-detection-project
 Create a virtual environment (recommended)
 bashpython -m venv face_detection_env
 
-# On Windows
-face_detection_env\Scripts\activate
-
-# On macOS/Linux
-source face_detection_env/bin/activate
-
-Install required packages
-bashpip install -r requirements.txt
-
 
 Usage 💻
 
@@ -53,11 +44,6 @@ Option 2: Real-time face detection
 Your webcam will start
 Press 'q' to quit
 Press 's' to save a screenshot
-
-
-
-
-
 Project Structure 📁
 face-detection-project/
 │
@@ -84,55 +70,3 @@ Automatic creation of output directories
 Timestamp-based file naming
 Error handling for various scenarios
 
-Sample Output 📸
-The application will:
-
-Draw blue rectangles around detected faces
-Draw green rectangles around detected eyes
-Display the number of faces found
-Save processed images with timestamps
-
-Troubleshooting 🔧
-Webcam not working?
-
-Ensure your camera is not being used by another application
-Check camera permissions in your system settings
-
-No faces detected?
-
-Ensure good lighting conditions
-Make sure faces are clearly visible and front-facing
-Try with different images
-
-Installation issues?
-
-Make sure you have Python 3.7+
-Try upgrading pip: pip install --upgrade pip
-On some systems, you might need: pip install opencv-python-headless
-
-Contributing 🤝
-
-Fork the repository
-Create a feature branch (git checkout -b feature/amazing-feature)
-Commit your changes (git commit -m 'Add amazing feature')
-Push to the branch (git push origin feature/amazing-feature)
-Open a Pull Request
-
-Future Enhancements 🚀
-
- Face recognition (identify specific people)
- Multiple face detection algorithms
- GUI interface using tkinter
- Batch processing for multiple images
- Face mask detection
- Age and gender prediction
-
-License 📄
-This project is open source and available under the MIT License.
-Author 👨‍💻
-Created by Tejas kumar d
-Acknowledgments 🙏
-
-OpenCV community for the amazing computer vision library
-Haar Cascade classifiers for face detection
-Python community for excellent documentation
